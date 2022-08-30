@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Visuelt Pro;
+  src: url('@/assets/font/VisueltPro/VisueltPro-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Visuelt Pro;
+  src: url('@/assets/font/VisueltPro/VisueltPro-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Visuelt Pro;
+  src: url('@/assets/font/VisueltPro/VisueltPro-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Visuelt Pro;
+  src: url('@/assets/font/VisueltPro/VisueltPro-Bold.ttf');
+  font-weight: 700;
+}
+
+//
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url('@/assets/font/SofiaPro/SofiaPro-Light.otf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url('@/assets/font/SofiaPro/SofiaPro-Regular.otf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url('@/assets/font/SofiaPro/SofiaPro-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Sofia Pro;
+  src: url('@/assets/font/SofiaPro/SofiaPro-Bold.otf');
+  font-weight: 700;
+}
+
+//
+
+// @font-face {
+//   font-family:SF Pro Text;
+//   src: url('@/assets/font/SFProText/SFProText-Light.ttf');
+//   font-weight: 300;
+// }
+
+@font-face {
+  font-family:SF Pro Text;
+  src: url('@/assets/font/SFProText/SFProText-Regular.ttf');
+  font-weight: 400;
+}
+
+// @font-face {
+//   font-family:SF Pro Text;
+//   src: url('@/assets/font/SFProText/SFProText-Medium.ttf');
+//   font-weight: 500;
+// }
+
+@font-face {
+  font-family:SF Pro Text;
+  src: url('@/assets/font/SFProText/SFProText-Bold.ttf');
+  font-weight: 700;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font, sans-serif;
+}
+
+body {
+  font-family: $normal-font, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 180%;
+}
+
+.slick-slide {
+  width: 768px;
+  max-width: 100%;
+
+  @include tablet {
+    width: 100%;
+  }
+}
