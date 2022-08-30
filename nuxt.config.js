@@ -55,6 +55,7 @@ export default {
     '@nuxtjs/style-resources',
     'bootstrap-vue/nuxt',
     '@nuxtjs/cloudinary',
+    'bootstrap-vue/nuxt',
   ],
   bootstrapVue: {
     icons: true,
@@ -77,6 +78,9 @@ export default {
     cloudName: 'sam-kay',
     apiKey: '712649815425746',
     apiSecret: '1EHjLK5fiWhJj3FJM9YO_3zcHII',
+  },
+  babel: {
+    compact: true,
   },
   // serverMiddleware: ['~/middleware/redirects.js'],
 }
